@@ -1,0 +1,13 @@
+{
+    "name": "dilerval/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dilerval Carvalho Silva",
+            "email": "dilerval@dilerval.com.br"
+        }
+    ],
+    "require": {}
+}
