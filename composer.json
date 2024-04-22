@@ -9,5 +9,8 @@
             "email": "dilerval@dilerval.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^7.0"
+    }
 }
