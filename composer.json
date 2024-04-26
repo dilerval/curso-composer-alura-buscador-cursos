@@ -30,6 +30,7 @@
         "test": "phpunit tests//TestBuscadorDeCursos.php",
         "cs": "phpcs --standard=PSR12 src//",
         "phan": "phan",
+        "dir": "ls",
         "check": [
             "@phan",
             "@cs",
