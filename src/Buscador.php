@@ -32,5 +32,4 @@ class Buscador
         }
         return $cursos;
     }
-
 }
