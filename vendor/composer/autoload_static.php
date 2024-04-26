@@ -37,6 +37,10 @@ class ComposerStaticInit183d3635e7b80e96a5db830cf4937a41
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -81,10 +85,15 @@ class ComposerStaticInit183d3635e7b80e96a5db830cf4937a41
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Alura\\BuscadorDeCursos\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
